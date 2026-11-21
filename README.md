@@ -18,6 +18,7 @@ Boolean Functions
 
 ```
 ## **Testbench Program
+// gedit tb4.v
 module tb4;
     reg  A, B, S, D;
     wire Y;
@@ -63,6 +64,7 @@ module tb4;
         #10 $finish;
     end
 endmodule
+
 
 
 
@@ -130,8 +132,11 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-<img width="1915" height="1078" alt="Screenshot 2026-10-23 090538" src="https://github.com/user-attachments/assets/5c847b61-05eb-4e53-a9c4-7d0e703200a3" />
-<img width="1910" height="1076" alt="Screenshot 2026-10-23 090722" src="https://github.com/user-attachments/assets/e8b6f1b3-d359-4309-a2b6-b4a26c8d894c" />
+<img width="1915" height="1078" alt="Screenshot 2026-10-23 090538" src="https://github.com/user-attachments/assets/f62bc6ff-4e65-41c0-9e8e-756bb981d4c0" />
+<img width="1910" height="1076" alt="Screenshot 2026-10-23 090722" src="https://github.com/user-attachments/assets/091dea40-d7f3-42ef-be69-16261c578577" />
+
+
+
 
 
 
